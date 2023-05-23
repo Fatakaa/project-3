@@ -1,0 +1,136 @@
+.header {
+    width: 1400px;
+    height: 80px;
+    position: absolute;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    background: #020E35;
+    width: 100px;
+    height: 120px;
+    left: 135px;
+}
+
+.logo svg {
+    position: absolute;
+    left: 28px;
+    top: 27px;
+}
+
+.minbox {
+    position: absolute;
+    top: 114px;
+    width: 100px;
+    height: 6px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.menus {
+    position: absolute;
+    left: 776px;
+    top: 32px;
+}
+
+.menus a {
+    text-decoration: none;
+    margin-right: 57px;
+    font-family: 'Basic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+.contact {
+    position: absolute;
+    left: 1198px;
+    top: 20px;
+    width: 107px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.contact h1 {
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    font-family: 'Basic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contact h1 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.banner{
+    width: 1440px;
+    height: 785px;
+}
+
+.text-banner {
+    position: absolute;
+    top: 252px;
+    left: 135px;
+    width: 531px;
+    height: 426px;
+}
+
+.text-banner h1 {
+    position: absolute;
+    margin-top: 0px;
+    color: #020E35;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 97px;
+    line-height: 122px;
+}
+
+.img-banner {
+    position: absolute;
+    width: 740px;
+    height: 566px;
+    top: 118px;
+    left: 700px;
+    right: 0px;
+}
+
+.img-banner img {
+    width: 700px;
+    height: 566px;
+    position: absolute;
+}
+
+.button-banner {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.button-banner h1 {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-family: 'Basic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.button-banner h1 a {
+    text-decoration: none;
+    color: #ffff;
+}
