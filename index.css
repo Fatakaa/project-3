@@ -1,136 +1,224 @@
-.header {
+* {
+  margin: 0;
+}
+
+.header,
+.banner {
+  font-family: "Basic", sans-serif;
+}
+
+.logo {
+  background-color: #020e35;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #8c32f0 4px solid;
+}
+
+.hamburger {
+  background-color: #020e35;
+  border: none;
+  color: white;
+}
+
+.hamburger svg {
+  height: 100%;
+  scale: 2;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+}
+
+.menus a {
+  background-color: white;
+  padding: 6px 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.contact {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  text-align: center;
+  padding: 6px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  padding-top: 50px;
+}
+
+.text-banner {
+  text-align: center;
+}
+
+.text-banner h1 {
+  font-size: 36px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button-banner h1 a {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.img-banner {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.img-banner img {
+  width: 70%;
+}
+@media only screen and (min-width: 1000px) {
+  .header {
     width: 1400px;
     height: 80px;
     position: absolute;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     left: 0px;
     top: 0px;
-}
+  }
 
-.logo {
+  .logo {
     position: absolute;
-    background: #020E35;
+    background: #020e35;
     width: 100px;
     height: 120px;
     left: 135px;
-}
+  }
 
-.logo svg {
+  .logo svg {
     position: absolute;
     left: 28px;
     top: 27px;
-}
+  }
 
-.minbox {
+  .minbox {
     position: absolute;
     top: 114px;
     width: 100px;
     height: 6px;
-    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-}
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
 
-.menus {
+  .menus {
     position: absolute;
     left: 776px;
     top: 32px;
-}
+  }
 
-.menus a {
+  .menus a {
     text-decoration: none;
     margin-right: 57px;
-    font-family: 'Basic', sans-serif;
+    font-family: "Basic", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: black;
-}
+  }
 
-.contact {
+  .contact {
     position: absolute;
     left: 1198px;
     top: 20px;
     width: 107px;
     height: 40px;
-    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-}
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
 
-.contact h1 {
+  .contact h1 {
     position: absolute;
     top: 2px;
     left: 15px;
-    font-family: 'Basic', sans-serif;
+    font-family: "Basic", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-}
+  }
 
-.contact h1 a {
+  .contact h1 a {
     text-decoration: none;
     color: #ffff;
-}
+  }
 
-.banner{
+  .banner {
     width: 1440px;
     height: 785px;
-}
+  }
 
-.text-banner {
+  .text-banner {
     position: absolute;
     top: 252px;
     left: 135px;
     width: 531px;
     height: 426px;
-}
+  }
 
-.text-banner h1 {
+  .text-banner h1 {
     position: absolute;
     margin-top: 0px;
-    color: #020E35;
-    font-family: 'Basic';
+    color: #020e35;
+    font-family: "Basic";
     font-style: normal;
     font-weight: 400;
     font-size: 97px;
     line-height: 122px;
-}
+  }
 
-.img-banner {
+  .img-banner {
     position: absolute;
     width: 740px;
     height: 566px;
     top: 118px;
     left: 700px;
     right: 0px;
-}
+  }
 
-.img-banner img {
+  .img-banner img {
     width: 700px;
     height: 566px;
     position: absolute;
-}
+  }
 
-.button-banner {
+  .button-banner {
     position: absolute;
     left: 0;
     bottom: 0px;
     width: 140px;
     height: 40px;
-    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-}
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
 
-.button-banner h1 {
+  .button-banner h1 {
     position: absolute;
     top: 12px;
     left: 15px;
-    font-family: 'Basic', sans-serif;
+    font-family: "Basic", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-}
+  }
 
-.button-banner h1 a {
+  .button-banner h1 a {
     text-decoration: none;
     color: #ffff;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
